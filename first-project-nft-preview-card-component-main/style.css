@@ -20,6 +20,15 @@ body {
   height: 100vh;
   padding: 10px;
 }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 img {
   max-width: 100%;
 }
@@ -60,12 +69,12 @@ ul {
 .view img {
   margin: 45% auto;
 }
-.container h2 {
+.container h1 {
   padding: 10px 0;
   transition: 0.3s ease-in;
   cursor: pointer;
 }
-.container h2:hover {
+.container h1:hover {
   color: var(--Cyan);
 }
 .container p {
